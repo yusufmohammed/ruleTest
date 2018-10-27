@@ -48,7 +48,7 @@
 
             <name>Internal Releases</name>
 
-            <url>http://localhost:8081/nexus/content/repositories/releases/</url>
+            <url>http://localhost:8088/nexus/content/repositories/releases/</url>
 
         </repository>
 
@@ -58,7 +58,7 @@
 
             <name>Internal Snapshot Releases</name>
 
-            <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
+            <url>http://localhost:8088/nexus/content/repositories/snapshots/</url>
 
         </snapshotRepository>
 
