@@ -1,0 +1,69 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>poc</groupId>
+  <artifactId>rulePOC</artifactId>
+  <version>1.0</version>
+  <packaging>jar</packaging>
+  
+  <dependencies>
+  <dependency>
+      <groupId>org.kie</groupId>
+      <artifactId>kie-api</artifactId>
+      <version>7.11.0.Final</version>
+      <scope>provided</scope>
+    </dependency>
+    
+   <dependency>
+    <groupId>org.kie.server</groupId>
+    <artifactId>kie-server-api</artifactId>
+    <version>7.11.0.Final</version>
+</dependency>
+
+<dependency>
+    <groupId>org.kie.server</groupId>
+    <artifactId>kie-server-client</artifactId>
+    <version>7.11.0.Final</version>
+</dependency>
+
+ <dependency>
+      <groupId>org.kie</groupId>
+      <artifactId>kie-internal</artifactId>
+      <version>7.11.0.Final</version>
+      <scope>provided</scope>
+    </dependency>
+   
+    
+    
+    
+    
+    
+    
+    </dependencies>
+	
+	 <distributionManagement>
+
+        <repository>
+
+            <id>deployment</id>
+
+            <name>Internal Releases</name>
+
+            <url>http://localhost:8081/nexus/content/repositories/releases/</url>
+
+        </repository>
+
+        <snapshotRepository>
+
+            <id>deployment</id>
+
+            <name>Internal Snapshot Releases</name>
+
+            <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
+
+        </snapshotRepository>
+
+    </distributionManagement>
+    
+    
+    
+</project>
