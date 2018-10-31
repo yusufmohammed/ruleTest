@@ -35,35 +35,16 @@
     
     
     
-    
+     <!-- proxies
+   | This is a list of proxies which can be used on this machine to connect to the network.
+   | Unless otherwise specified (by system property or command-line switch), the first proxy
+   | specification in this list marked as active will be used.
+   |-->
     
     
     </dependencies>
 	
-	 <distributionManagement>
-
-        <repository>
-
-            <id>deployment</id>
-
-            <name>Internal Releases</name>
-
-            <url>http://localhost:8088/nexus/content/repositories/releases/</url>
-
-        </repository>
-
-        <snapshotRepository>
-
-            <id>deployment</id>
-
-            <name>Internal Snapshot Releases</name>
-
-            <url>http://localhost:8088/nexus/content/repositories/snapshots/</url>
-
-        </snapshotRepository>
-
-    </distributionManagement>
-    
+	 
     
     
 </project>
